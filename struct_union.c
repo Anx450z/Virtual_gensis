@@ -30,7 +30,5 @@ int main()
         e2++;
     }
     union A a1;
-a1.val  = 0x41424344;
-a1.sval = 0x6364;
 printf("%x\n",(int) a1.cval);
 }
