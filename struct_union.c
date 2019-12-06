@@ -2,8 +2,6 @@
 #include <stdint-gcc.h>
 
 union A {
-  uint32_t val;
-  uint16_t sval;
   uint8_t cval;
 };
 struct emp
