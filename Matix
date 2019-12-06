@@ -21,12 +21,12 @@ int main()
         {10,"ankur",456},{.name="varsha",.sal=0},[5]={34,"fddfgfg",54645}
     };
     e2=&e1;
-    //printf("name %s",e2->name);
-   // printf(" 2nd element %s",e1[1].name);
+    printf("name %s",e2->name);
+    printf(" 2nd element %s",e1[1].name);
     for(int i=0;i<6;i++)
     {
-       // printf("%s\n",e2->name);
-       // printf("%d\n",e2->id);
+       printf("%s\n",e2->name);
+       printf("%d\n",e2->id);
         e2++;
     }
     union A a1;
